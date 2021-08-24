@@ -1,0 +1,93 @@
+#titulo {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(250, 82, 4);
+}
+#registro,#principal,#camara {
+    display:none;
+}
+.menu{
+  width:0%;
+  height:100%;
+  top: 0;
+  left: 0;
+  background-color:#ff5500;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+.botonCerrar{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: #eaff00;
+  text-decoration: none;
+}
+
+.opciones{
+text-decoration: none;
+color:#000000;
+padding-left: 20px;
+}
+
+.opciones:visited{
+  color:#eaff00;
+}
+
+.inputget{
+  display: none;
+}
+
+.container-photo{
+  background-color:#8f8f8f;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+.photo{
+  height: 200px;
+  object-fit:cover;
+}
+
+
+@media screen and (max-height:450px){
+.menu{padding-top: 15px;}
+.menu a {font-size: 18px;}
+}
+
+.btn {
+    background: #FCC33E;
+    background-image: -webkit-linear-gradient(top, #FCC33E, #ff7b00);
+    background-image: -moz-linear-gradient(top, #FCC33E, #ff7b00);
+    background-image: -ms-linear-gradient(top, #FCC33E, #ff7b00);
+    background-image: -o-linear-gradient(top, #FCC33E, #ff7b00);
+    background-image: linear-gradient(to bottom, #FCC33E, #ff7b00);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #FCC33E 2px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #FCC33E;
+    background-image: -webkit-linear-gradient(top, #FCC33E, #00b7ff);
+    background-image: -moz-linear-gradient(top, #FCC33E, #00b7ff);
+    background-image: -ms-linear-gradient(top, #FCC33E, #00b7ff);
+    background-image: -o-linear-gradient(top, #FCC33E, #00b7ff);
+    background-image: linear-gradient(to bottom, #FCC33E, #00b7ff);
+    text-decoration: none;
+  }
+
+  .errorCampo{
+    border-color:red;
+    border-width: 4px;
+  }
